@@ -1,0 +1,205 @@
+@media (min-width: 750px){
+
+    *{
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+        /*border: 1px solid red;*/
+    }
+    /* Body */
+    
+    body{
+        background-color: #FFFF;
+    }
+    /* Header */
+    
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #round_logo{
+        background-image: url("/assets/img/logo.png");
+        background-repeat: no-repeat;
+        width:6.5rem;
+        height: 6.5rem;
+    }
+    
+    #en_tete{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        color:#BD4B17;
+    }
+    /* Nav */
+    
+    /*nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height:7rem;
+        justify-content: space-around;
+    
+    }
+    nav a{
+        background-color: #C1B3AE;
+        color: #000000;
+        width: 100%;
+        text-align: center;
+        height:2rem;
+        padding:0.5rem 0rem;
+        text-decoration: none;
+        
+    }*/
+    
+    /* Main */
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 4rem;
+    }
+    h2{
+        font-size: 1rem;
+        text-align: center;
+        padding:1rem 0rem;
+        font-family: Verdana, Tahoma, sans-serif;
+    }
+      
+    .banner{
+        background-image: url("/assets/img/desert.jpg");
+        background-size: cover;
+        width: 100%;
+        height:30rem;
+        background-repeat: no-repeat;
+    }
+    p{
+        text-align: left;
+        font-family: 'francophilsansregular', Arial, sans-serif;
+        padding: 1rem 0rem;
+    }
+    /* Div for tablettes only */
+    #tablette_bottom{
+        display: flex;
+        border-top: 2px solid #C1B3AE;
+        
+    }
+    /* Top 5*/
+    #top5{
+        padding: 1rem 1rem 0rem 1rem;
+        
+    }
+    #top5 h3{
+        color:#BD4B17;
+        border-bottom: 1px solid #C1B3AE;
+        text-align: center;
+    }
+    #top5 ol{
+        padding-top: 2rem;
+        list-style-position: inside;
+        text-align: center;
+    
+    }
+    /* Gallerie */
+    #gallery_container{
+        padding: 1rem  0rem 1rem 4rem;
+       
+    }
+    #gallery_title{
+        
+        border-bottom: 1px solid #C1B3AE;
+        color:#BD4B17;
+        padding-right:16rem;
+        
+    }
+    #gallerie{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        padding-top:1rem;
+        height:9rem;
+    }
+    .mini-img1{
+        background-image: url("/assets/img/vignettes/desert01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:3.5rem;
+        width: 3.5rem;
+    }
+    .mini-img2{
+        background-image: url("/assets/img/vignettes/desert02.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:3.5rem;
+        width: 3.5rem;
+    }
+    .mini-img3{
+        background-image: url("/assets/img/vignettes/desert03.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:3.5rem;
+        width: 3.5rem;
+    }
+    .mini-img4{
+        background-image: url("/assets/img/vignettes/desert04.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:3.5rem;
+        width: 3.5rem;
+    }
+    .mini-img5{
+        background-image: url("/assets/img/vignettes/desert05.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:3.5rem;
+        width: 3.5rem;
+    }
+    .mini-img6{
+        background-image: url("/assets/img/vignettes/desert06.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:3.5rem;
+        width: 3.5rem;
+    }
+    .mini-img7{
+        background-image: url("/assets/img/vignettes/desert07.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:3.5rem;
+        width: 3.5rem;
+    }
+    .mini-img8{
+        background-image: url("/assets/img/vignettes/desert08.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:3.5rem;
+        width: 3.5rem;
+    }
+    .mini-img9{
+        background-image: url("/assets/img/vignettes/desert09.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:3.5rem;
+        width: 3.5rem;
+    }
+    .mini-img10{
+        background-image: url("/assets/img/vignettes/desert10.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:3.5rem;
+        width: 3.5rem;
+    }
+    
+    /*Footer*/
+    footer{
+     border-top: solid 1px #C1B3AE ;
+     padding:1rem;
+     font-family: Arial, sans-serif;
+     text-align: center;
+    }
+
+}
+
