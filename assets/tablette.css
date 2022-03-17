@@ -57,7 +57,7 @@
         background-image: url("/assets/img/desert.jpg");
         background-size: contain;
         width: 100%;
-        height:30rem;
+        height:25rem;
         background-repeat: no-repeat;
     }
     p{
@@ -74,6 +74,7 @@
     /* Top 5*/
     #top5{
         padding: 1rem 1rem 0rem 1rem;
+        min-width: 40%;
         
     }
     #top5 h3{
@@ -90,7 +91,7 @@
     /* Gallerie */
     #gallery_container{
         padding: 1rem  0rem 1rem 4rem;
-       
+       max-width: 65%;
     }
     #gallery_title{
         

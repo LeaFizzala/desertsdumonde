@@ -65,17 +65,18 @@ h2{
     background-image: url("/assets/img/desert.jpg");
     background-size: contain;
     width: 100%;
-    height: 15rem;
+    height: 10rem;
     background-repeat: no-repeat;
 }
 p{
     text-align: left;
     font-family: 'francophilsansregular', Arial, sans-serif;
-    padding: 1rem 0rem;
+    
 }
 /* Top 5*/
 #top5{
     padding: 1rem 1rem 0rem 1rem;
+    display: none;
     
 }
 #top5 h3{
@@ -92,6 +93,7 @@ p{
 /* Gallerie */
 #gallery_container{
     padding: 4rem 1rem 2rem 1rem;
+    display: none;
     
    
 }

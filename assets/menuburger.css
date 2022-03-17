@@ -17,6 +17,7 @@ a {
 
 nav {
     background-color: #fff;
+    padding-left:3rem;
 }
 
 nav h1::before {
